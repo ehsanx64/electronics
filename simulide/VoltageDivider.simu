@@ -1,0 +1,35 @@
+<circuit Speed_sps="1000000" animate="0" type="simulide_0.4" Simu_Step_nS="1000" reactStep="50" noLinAcc="5" Speed_per="100">
+
+Unique  Id: Switch-89: 
+Circuit Id: Switch-89
+<item labely="-24" labelrot="0" hflip="1" DT="true" Key="" labelx="-16" Norm_Close="false" mainComp="false" y="-472" rotation="0" boardPos="-1e+06,-1e+06" valLabelx="0" boardRot="-1000000" Poles="1" objectName="Switch-89" valLabely="0" Show_id="false" circPos="0,0" itemtype="Switch" x="-368" id="Switch-89" valLabRot="0" circRot="0" vflip="1"/>
+
+Unique  Id: Resistor-11: 
+Circuit Id: Resistor-3
+<item Resistance="1" labely="-20" labelrot="0" hflip="1" labelx="-12" Show_res="true" Unit=" kΩ" mainComp="false" y="-492" rotation="0" boardPos="-1e+06,-1e+06" valLabelx="-16" boardRot="-1000000" objectName="Resistor-11" valLabely="6" Show_id="false" circPos="0,0" itemtype="Resistor" x="-464" id="Resistor-3" valLabRot="0" circRot="7.1299058597035687e-312" vflip="1"/>
+
+Unique  Id: Voltimeter-9: 
+Circuit Id: Voltimeter-8
+<item labely="-40" labelrot="0" hflip="1" labelx="-24" mainComp="false" y="-544" rotation="0" boardPos="-1e+06,-1e+06" valLabelx="0" boardRot="-1000000" objectName="Voltimeter-9" valLabely="0" Show_id="false" circPos="0,0" itemtype="Voltimeter" x="-496" id="Voltimeter-8" valLabRot="0" circRot="0" vflip="1"/>
+
+Unique  Id: Probe-8: 
+Circuit Id: Probe-9
+<item labely="-16" labelrot="45" hflip="1" labelx="16" Show_volt="true" mainComp="false" y="-552" rotation="-45" boardPos="-1e+06,-1e+06" Threshold="2.5" valLabelx="16" boardRot="-1000000" objectName="Probe-8" valLabely="0" Show_id="false" circPos="0,0" itemtype="Probe" x="-428" id="Probe-9" valLabRot="45" circRot="0" vflip="1"/>
+
+Unique  Id: Battery-7: 
+Circuit Id: Battery-31
+<item labely="-22" labelrot="0" hflip="1" Show_Volt="true" labelx="-18" Volts="5" mainComp="false" y="-480" rotation="-270" boardPos="-1e+06,-1e+06" valLabelx="-10" boardRot="-1000000" objectName="Battery-7" valLabely="10" Show_id="false" circPos="0,0" itemtype="Battery" x="-504" id="Battery-31" valLabRot="0" circRot="7.1299058597035687e-312" vflip="1"/>
+
+Unique  Id: Connector-12: 
+Circuit Id: Connector-10
+<item labely="-24" labelrot="0" pointList="-444,-536,-464,-536,-464,-552" hflip="1" endpinid="Voltimeter-9-outnod" labelx="-16" mainComp="false" y="-536" rotation="0" boardPos="-1e+06,-1e+06" startpinid="Probe-8-inpin" valLabelx="0" boardRot="-1000000" objectName="Connector-12" valLabely="0" Show_id="false" circPos="0,0" itemtype="Connector" x="-444" id="Connector-10" valLabRot="0" circRot="0" enodeid="Circ_eNode-13" vflip="1"/>
+
+Unique  Id: Connector-14: 
+Circuit Id: Connector-14
+<item labely="-24" labelrot="0" pointList="-504,-528,-504,-496" hflip="1" endpinid="Battery-7-Pin0" labelx="-16" mainComp="false" y="-528" rotation="0" boardPos="-1e+06,-1e+06" startpinid="Voltimeter-9-lPin" valLabelx="0" boardRot="-1000000" objectName="Connector-14" valLabely="0" Show_id="false" circPos="0,0" itemtype="Connector" x="-504" id="Connector-14" valLabRot="0" circRot="0" enodeid="enode-14" vflip="1"/>
+
+Unique  Id: Connector-78: 
+Circuit Id: Connector-78
+<item labely="-24" labelrot="0" pointList="-504,-464,-504,-452,-428,-452,-428,-524,-488,-524,-488,-528" hflip="1" endpinid="Voltimeter-9-rPin" labelx="-16" mainComp="false" y="-464" rotation="0" boardPos="-1e+06,-1e+06" startpinid="Battery-7-Pin1" valLabelx="0" boardRot="-1000000" objectName="Connector-78" valLabely="0" Show_id="false" circPos="0,0" itemtype="Connector" x="-504" id="Connector-78" valLabRot="0" circRot="1.7801935385520943e-306" enodeid="enode-78" vflip="1"/>
+ 
+</circuit>
